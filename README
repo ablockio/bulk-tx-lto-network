@@ -1,0 +1,40 @@
+# Project Title
+
+Bulk payment for LTO Network mainnet tokens.
+
+---
+## Requirements
+
+You will only need Node.js and a node global package installed in your environement.
+You will also need a node to make the actual transaction and broadcast it to the network.
+
+### Node
+We used Node 12.0.0 but older versions may be applicable. This project as close to no dependencies.
+
+### LTO Network mainnet node
+Refer to the official LTO Network documentation to run a node
+    $ https://blog.ltonetwork.com/staking-and-leasing-lto-network-node-guide/
+
+---
+
+## Install of the script
+
+    $ git clone https://github.com/ablockio/bulk-tx-lto-network
+    $ cd bulk-tx-lto-network
+    $ npm i
+
+## Configure app
+
+Open `config_template.json` then edit it with your settings. You will need:
+
+- A list of receivers;
+- amount of token to send per receiver. The amount is in LTO. If you want to send 1000 LTO; set 1000 (not with 8 extra digits)
+- Your node settings
+- Your node api port Opened if you launch the script not on your server
+
+Once you are done, copy your file to `config.json`
+
+## Running the script
+
+Once your configuration is done and you and you want to go live and send your tokens, remove the line in comment in `index.js`
+    $ node index.js

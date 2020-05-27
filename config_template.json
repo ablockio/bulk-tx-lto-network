@@ -1,0 +1,34 @@
+{
+  "common" : {
+    "lto_digits" : 10000000,
+    "maxmasstransfertxs" : 99,
+    "transferfee" : 100000000,
+    "masstransferfee" : 10000000,
+    "masstransferversion" : 1,
+    "masstransfertype" : 11
+  },
+  "receivers" : [
+    { "address" : "ADDRESS_MAINNET_1",
+      "amount" : 1
+    },
+    { "address" : "ADDRESS_MAINNET_2",
+      "amount" : 1
+    },
+    { "address" : "ADDRESS_MAINNET_3",
+      "amount" : 1
+    },
+    { "address" : "ADDRESS_MAINNET_4",
+      "amount" : 1
+    },
+    { "address" : "ADDRESS_MAINNET_5",
+      "amount" : 1
+    }
+
+  ],
+  "node" : {
+    "wallet": "YOUR_NODE_PUBLIC_WALLET",
+    "myquerynode":  "http://YOUR_NODE_IP:6869",
+    "apiKey": "YOUR_NODE_API_KEY"
+  }
+
+}

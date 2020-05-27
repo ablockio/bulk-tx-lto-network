@@ -1,0 +1,29 @@
+{
+  "name": "bulk-tx-lto-network",
+  "version": "1.0.0",
+  "description": "LTO Network mainnet Bulk TX for node operators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ablockio/bulk-tx-lto-network.git"
+  },
+  "keywords": [
+    "lto",
+    "network",
+    "bulk",
+    "tx",
+    "ablock"
+  ],
+  "author": "ablock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ablockio/bulk-tx-lto-network/issues"
+  },
+  "homepage": "https://github.com/ablockio/bulk-tx-lto-network#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
